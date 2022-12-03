@@ -1,0 +1,21 @@
+﻿@model List<Devs2Blu.ProjetosAula.CSharpMVCRevisao.Models.GetListDataCardsDTO>
+<link rel="stylesheet" href="~/css/produto.css" asp-append-version="true" />
+<div class="row" ="content-list">
+    @foreach (var item in Model)
+    {
+        <div class="card" style="width: 15rem;">
+            <div class="card-header">
+                <img src="@item.image_link" class="card-img-top">
+            </div>
+            <div class="card-body">
+                <ul class="list-group">
+                    <span>@item.name</span>
+                    <li>
+                        <h2>Preço:</h2>
+                        <span class="badge  text-dark">R$:@item.price</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    }
+</div>

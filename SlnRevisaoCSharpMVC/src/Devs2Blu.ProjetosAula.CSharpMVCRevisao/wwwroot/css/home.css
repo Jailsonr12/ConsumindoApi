@@ -1,0 +1,38 @@
+main{
+
+}
+
+img {
+    width: 220px;
+    box-shadow: 1px 1px #808080;
+}
+div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.sobre {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+h1 {
+    display: flex;
+    box-shadow: 1px #808080;
+    justify-content: center;
+    align-content: center;
+    padding: 5px;
+    color: deeppink;
+    text-shadow: 1px 1px white, -1px -1px #444
+}
+
+p {
+    font-size: 25px;
+    display: flex;
+    align-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-left: 60px;
+    width: 800px;
+}
