@@ -6,5 +6,6 @@
 
 <h1 align="center"> Produtos</h1>
 
-![produtos](https://user-images.githubusercontent.com/104799776/205759686-35e1532a-2ef1-4816-aa00-ce7d9af8035f.png)
+![produtos](https://user-images.githubusercontent.com/104799776/205777514-8bb4f468-f652-49bb-a1a1-672d7e25c6d2.png)
+
 
